@@ -1,0 +1,37 @@
+{
+  "name": "@rog0x/mcp-schema-tools",
+  "version": "1.0.0",
+  "description": "MCP server providing schema validation and generation tools for AI agents",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-schema-tools": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai",
+    "json-schema",
+    "typescript",
+    "validation",
+    "mock-data",
+    "schema-diff"
+  ],
+  "author": "rog0x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rog0x/mcp-schema-tools"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
